@@ -3,17 +3,17 @@
 
 # NETLIFY COMMANDS
 '''bash
-netlify dev
+npx netlify dev
 '''
 
 remote development build
 '''bash
-netlify deploy --build
+npx netlify deploy --build
 '''
 
 going live on the internet
 '''bash
-netlify deploy --build --prod
+npx netlify deploy --build --prod
 '''
 
 git push.... production build
@@ -21,6 +21,13 @@ git push.... production build
 netlify deploy --build --prod
 '''
 
+## Git Command Line
+
+'''
+git add .
+git commit -m "commit message"
+git push origin main
+'''
 ## Netlify Config File Settings
 
 ```toml
